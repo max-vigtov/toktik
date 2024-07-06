@@ -19,7 +19,7 @@ class VideoScrollableView extends StatelessWidget {
         final VideoPost videoPost = videos[index];
         return  Stack(
           children: [
-            SizedBox.expand(
+            const SizedBox.expand(
               child: FullScreenPlayer(
                 caption: '', 
                 videoUrl: '',),
