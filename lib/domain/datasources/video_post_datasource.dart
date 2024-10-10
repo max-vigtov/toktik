@@ -4,6 +4,6 @@ abstract class VideoPostDatasource {
 
   Future<List<VideoPost>> getFavoriteVideosByUser( String usedId);
 
-  Future<List<VideoPost>> getFavoriteVideosByPage( int page );
+  Future<List<VideoPost>> getTrendingVideosByPage( int page );
 
 }
